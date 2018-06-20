@@ -1,19 +1,6 @@
 {
         
-        "fechaCreacion": "2018-06-07T21:33:24.000+0000",
-        "fechaModificacion": null,
-        "aceptada": 0,
         
-            "latitudDestino": 30,
-            "longitudDestino": 20.3,
-            "nombDestinatario": "Gonzalo Zago",
-            "mailDestinatario": "gonza.zago@gmail.com",
-            "numDestino": "234",
-            "codPostalDestino": "1755",
-            "dirDestino": "123",
-            "nombreEmisor": "Usuario Emisor",
-            "latitudOrigen": 21.3,
-            "longitudOrigen": 20.3,
             "dirOrigen": "321",
             "numOrigen": "432",
             "codPostalOrigen": "1756",
