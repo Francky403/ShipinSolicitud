@@ -2,12 +2,17 @@
   "profiles": [
     {
 	"id": 1, "name": "john", "age": 21,        
-        "paquete": {
-            "idPaquete": 3,
-            "nombre": "heladera",
-            "descripcion": "heladera",
-            "alto": "20",
-            "ancho": "32"
+        "idOferta":1,
+        "descripcion": "String Opcional",
+        "precioOfertado": "Double Obligatorio",
+        "usuario": { 
+            "idUsuario": 1,
+            "nombre": "pedro",
+            "apelido": "Gomez",
+            "mail": "pedro.gomez@mail.com",
+            "fechaAlta": "2018-06-07T21:32:51.000+0000",
+            "fechaModif": null,
+            "transporte": null
         },
         
         "ofertas": [
