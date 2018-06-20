@@ -1,105 +1,151 @@
 {
-  "profiles": [
-    {
-	"id": 1, "name": "john", "age": 21,
-        "idSolicitud": 3,
-        "descripcion": "dest edit",
-        "fechaAlta": "2018-05-19T16:47:58.000+0000",
-        "fechaModif": null,
-        "fechaInicio": "2018-05-19T16:47:58.000+0000",
-        "esInmediata": 0,
-        "paquete": {
-            "idPaquete": 3,
-            "nombre": "heladera",
-            "descripcion": "heladera",
-            "alto": "20",
-            "ancho": "32"
+        "idOferta":1,
+        "descripcion": String Opcional
+        "precioOfertado": Double Obligatorio
+        "usuario": { Usuario
+            "idUsuario": 1,
+            "nombre": "pedro",
+            "apelido": "Gomez",
+            "mail": "pedro.gomez@mail.com",
+            "fechaAlta": "2018-06-07T21:32:51.000+0000",
+            "fechaModif": null,
+            "transporte": null
         },
-        "latitudDestino": 54,
-        "altitudDestino": 73,
-        "nombDestinatario": "destion",
-        "mailDestinatario": "mail@infocom",
-        "numDestino": "44443333",
-        "codPostalDestino": "1755",
-        "dirDestino": "dir destino",
-        "nombreEmisor": "emisor",
-        "latitudOrigen": 74,
-        "altitudOrigen": 53,
-        "dirOrigen": "dir origen",
-        "numOrigen": "123",
-        "codPostalOrigen": "1766",
-        "usuario": null,
-        "ofertas": [
-        ],
-        "estado": null
-    },
+        "fechaCreacion": "2018-06-07T21:33:24.000+0000",
+        "fechaModificacion": null,
+        "aceptada": boolean,
+        "solicitud": { Objeto Solicitud Obligatorio
+            "idSolicitud": 2,
+            "descripcion": "Solicitud Test",
+            "fechaAlta": "2018-06-04T16:43:23.000+0000",
+            "fechaModif": null,
+            "fechaInicio": "2018-06-04T16:43:23.000+0000",
+            "esInmediata": true,
+            "paquete": {
+                "idPaquete": 2,
+                "nombre": "Test",
+                "descripcion": "Paquete Test",
+                "alto": "23",
+                "ancho": 32,
+                "largo": 43,
+                "peso": 34
+            },
+            "latitudDestino": 30,
+            "longitudDestino": 20.3,
+            "nombDestinatario": "Gonzalo Zago",
+            "mailDestinatario": "gonza.zago@gmail.com",
+            "numDestino": "234",
+            "codPostalDestino": "1755",
+            "dirDestino": "123",
+            "nombreEmisor": "Usuario Emisor",
+            "latitudOrigen": 21.3,
+            "longitudOrigen": 20.3,
+            "dirOrigen": "321",
+            "numOrigen": "432",
+            "codPostalOrigen": "1756",
+            "usuario": null,
+            "estado": null
+        }
+    }
+,
+
 {
-	"id": 2, "name": "menudita", "age": 31,
-        "idSolicitud": 3,
-        "descripcion": "dest edit",
-        "fechaAlta": "2018-05-19T16:47:58.000+0000",
-        "fechaModif": null,
-        "fechaInicio": "2018-05-19T16:47:58.000+0000",
-        "esInmediata": 0,
-        "paquete": {
-            "idPaquete": 3,
-            "nombre": "heladera",
-            "descripcion": "heladera",
-            "alto": "20",
-            "ancho": "32"
+        "idOferta":2,
+        "descripcion": String Opcional
+        "precioOfertado": Double Obligatorio
+        "usuario": { Usuario
+            "idUsuario": 1,
+            "nombre": "pedro",
+            "apelido": "Gomez",
+            "mail": "pedro.gomez@mail.com",
+            "fechaAlta": "2018-06-07T21:32:51.000+0000",
+            "fechaModif": null,
+            "transporte": null
         },
-        "latitudDestino": 54,
-        "altitudDestino": 73,
-        "nombDestinatario": "destion",
-        "mailDestinatario": "mail@infocom",
-        "numDestino": "44443333",
-        "codPostalDestino": "1755",
-        "dirDestino": "dir destino",
-        "nombreEmisor": "emisor",
-        "latitudOrigen": 74,
-        "altitudOrigen": 53,
-        "dirOrigen": "dir origen",
-        "numOrigen": "123",
-        "codPostalOrigen": "1766",
-        "usuario": null,
-        "ofertas": [
-        ],
-        "estado": null
-    },
+        "fechaCreacion": "2018-06-07T21:33:24.000+0000",
+        "fechaModificacion": null,
+        "aceptada": boolean,
+        "solicitud": { Objeto Solicitud Obligatorio
+            "idSolicitud": 2,
+            "descripcion": "Solicitud Test",
+            "fechaAlta": "2018-06-04T16:43:23.000+0000",
+            "fechaModif": null,
+            "fechaInicio": "2018-06-04T16:43:23.000+0000",
+            "esInmediata": true,
+            "paquete": {
+                "idPaquete": 2,
+                "nombre": "Test",
+                "descripcion": "Paquete Test",
+                "alto": "23",
+                "ancho": 32,
+                "largo": 43,
+                "peso": 34
+            },
+            "latitudDestino": 30,
+            "longitudDestino": 20.3,
+            "nombDestinatario": "Gonzalo Zago",
+            "mailDestinatario": "gonza.zago@gmail.com",
+            "numDestino": "234",
+            "codPostalDestino": "1755",
+            "dirDestino": "123",
+            "nombreEmisor": "Usuario Emisor",
+            "latitudOrigen": 21.3,
+            "longitudOrigen": 20.3,
+            "dirOrigen": "321",
+            "numOrigen": "432",
+            "codPostalOrigen": "1756",
+            "usuario": null,
+            "estado": null
+        }
+    }
+,
 {
-	"id": 3, "name": "franco", "age": 28,
-        "idSolicitud": 3,
-        "descripcion": "dest edit",
-        "fechaAlta": "2018-05-19T16:47:58.000+0000",
-        "fechaModif": null,
-        "fechaInicio": "2018-05-19T16:47:58.000+0000",
-        "esInmediata": 0,
-        "paquete": {
-            "idPaquete": 3,
-            "nombre": "heladera",
-            "descripcion": "heladera",
-            "alto": "20",
-            "ancho": "32"
+        "idOferta":3,
+        "descripcion": String Opcional
+        "precioOfertado": Double Obligatorio
+        "usuario": { Usuario
+            "idUsuario": 1,
+            "nombre": "pedro",
+            "apelido": "Gomez",
+            "mail": "pedro.gomez@mail.com",
+            "fechaAlta": "2018-06-07T21:32:51.000+0000",
+            "fechaModif": null,
+            "transporte": null
         },
-        "latitudDestino": 54,
-        "altitudDestino": 73,
-        "nombDestinatario": "destion",
-        "mailDestinatario": "mail@infocom",
-        "numDestino": "44443333",
-        "codPostalDestino": "1755",
-        "dirDestino": "dir destino",
-        "nombreEmisor": "emisor",
-        "latitudOrigen": 74,
-        "altitudOrigen": 53,
-        "dirOrigen": "dir origen",
-        "numOrigen": "123",
-        "codPostalOrigen": "1766",
-        "usuario": null,
-        "ofertas": [
-        ],
-        "estado": null
+        "fechaCreacion": "2018-06-07T21:33:24.000+0000",
+        "fechaModificacion": null,
+        "aceptada": boolean,
+        "solicitud": { Objeto Solicitud Obligatorio
+            "idSolicitud": 2,
+            "descripcion": "Solicitud Test",
+            "fechaAlta": "2018-06-04T16:43:23.000+0000",
+            "fechaModif": null,
+            "fechaInicio": "2018-06-04T16:43:23.000+0000",
+            "esInmediata": true,
+            "paquete": {
+                "idPaquete": 2,
+                "nombre": "Test",
+                "descripcion": "Paquete Test",
+                "alto": "23",
+                "ancho": 32,
+                "largo": 43,
+                "peso": 34
+            },
+            "latitudDestino": 30,
+            "longitudDestino": 20.3,
+            "nombDestinatario": "Gonzalo Zago",
+            "mailDestinatario": "gonza.zago@gmail.com",
+            "numDestino": "234",
+            "codPostalDestino": "1755",
+            "dirDestino": "123",
+            "nombreEmisor": "Usuario Emisor",
+            "latitudOrigen": 21.3,
+            "longitudOrigen": 20.3,
+            "dirOrigen": "321",
+            "numOrigen": "432",
+            "codPostalOrigen": "1756",
+            "usuario": null,
+            "estado": null
+        }
     }
 
-   
-  ]
-}
