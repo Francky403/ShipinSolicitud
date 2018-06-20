@@ -13,7 +13,7 @@
         },
         "fechaCreacion": "2018-06-07T21:33:24.000+0000",
         "fechaModificacion": null,
-        "aceptada": True,
+        "aceptada": 0,
         "solicitud": { 
             "idSolicitud": 2,
             "descripcion": "Solicitud Test",
