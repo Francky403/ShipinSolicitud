@@ -2,7 +2,7 @@
         "idOferta":1,
         "descripcion": "String Opcional"
         "precioOfertado": "Double Obligatorio"
-        "usuario": { Usuario
+        "usuario": {  
             "idUsuario": 1,
             "nombre": "pedro",
             "apelido": "Gomez",
@@ -13,7 +13,7 @@
         },
         "fechaCreacion": "2018-06-07T21:33:24.000+0000",
         "fechaModificacion": null,
-        "aceptada": True,
+        "aceptada": 0,
         "solicitud": { 
             "idSolicitud": 2,
             "descripcion": "Solicitud Test",
@@ -52,7 +52,7 @@
 {
         "idOferta":2,
         "descripcion": "String Opcional"
-        "precioOfertado": 22
+        "precioOfertado": 22,
         "usuario": {  
             "idUsuario": 1,
             "nombre": "pedro",
@@ -64,7 +64,7 @@
         },
         "fechaCreacion": "2018-06-07T21:33:24.000+0000",
         "fechaModificacion": null,
-        "aceptada": True,
+        "aceptada": 0,
         "solicitud": {  
             "idSolicitud": 2,
             "descripcion": "Solicitud Test",
@@ -102,7 +102,7 @@
 {
         "idOferta":3,
         "descripcion": "String Opcional"
-        "precioOfertado": 22
+        "precioOfertado": 22,
         "usuario": { 
             "idUsuario": 1,
             "nombre": "pedro",
@@ -114,7 +114,7 @@
         },
         "fechaCreacion": "2018-06-07T21:33:24.000+0000",
         "fechaModificacion": null,
-        "aceptada": true,
+        "aceptada": 0,
         "solicitud": { 
             "idSolicitud": 2,
             "descripcion": "Solicitud Test",
