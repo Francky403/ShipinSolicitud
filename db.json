@@ -1,7 +1,7 @@
 {
         "idOferta":1,
-        "descripcion": "String Opcional"
-        "precioOfertado": "Double Obligatorio"
+        "descripcion": "String Opcional",
+        "precioOfertado": 22.2
         "usuario": {  
             "idUsuario": 1,
             "nombre": "pedro",
@@ -51,8 +51,8 @@
 
 {
         "idOferta":2,
-        "descripcion": "String Opcional"
-        "precioOfertado": 22,
+        "descripcion": "String Opcional",
+        "precioOfertado": 22.2,
         "usuario": {  
             "idUsuario": 1,
             "nombre": "pedro",
@@ -101,8 +101,8 @@
 ,
 {
         "idOferta":3,
-        "descripcion": "String Opcional"
-        "precioOfertado": 22,
+        "descripcion": "String Opcional",
+        "precioOfertado": 22.2,
         "usuario": { 
             "idUsuario": 1,
             "nombre": "pedro",
