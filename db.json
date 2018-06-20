@@ -1,7 +1,7 @@
 {
         "idOferta":1,
         "descripcion": "String Opcional",
-        "precioOfertado": 22.2
+        "precioOfertado": 22.2,
         "usuario": {  
             "idUsuario": 1,
             "nombre": "pedro",
