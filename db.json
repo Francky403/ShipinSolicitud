@@ -13,7 +13,27 @@
             "fechaAlta": "2018-06-07T21:32:51.000+0000",
             "fechaModif": null,
             "transporte": null
-        } 
+        },
+        "fechaCreacion": "2018-06-07T21:33:24.000+0000",
+        "fechaModificacion": null,
+        "aceptada": boolean,
+        "solicitud": { Objeto Solicitud Obligatorio
+            "idSolicitud": 2,
+            "descripcion": "Solicitud Test",
+            "fechaAlta": "2018-06-04T16:43:23.000+0000",
+            "fechaModif": null,
+            "fechaInicio": "2018-06-04T16:43:23.000+0000",
+            "esInmediata": true,
+            "paquete": {
+                "idPaquete": 2,
+                "nombre": "Test",
+                "descripcion": "Paquete Test",
+                "alto": "23",
+                "ancho": 32,
+                "largo": 43,
+                "peso": 34
+            } 
+	    
     }   
   ]
 }
