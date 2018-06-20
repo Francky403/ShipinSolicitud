@@ -6,30 +6,12 @@
             "idUsuario": 1,
             "nombre": "pedro",
             "apelido": "Gomez",
-            "mail": "pedro.gomez@mail.com",
-            "fechaAlta": "2018-06-07T21:32:51.000+0000",
-            "fechaModif": null,
-            "transporte": null
+            "mail": "pedro.gomez@mail.com" 
         },
         "fechaCreacion": "2018-06-07T21:33:24.000+0000",
         "fechaModificacion": null,
         "aceptada": 0,
-        "solicitud": { 
-            "idSolicitud": 2,
-            "descripcion": "Solicitud Test",
-            "fechaAlta": "2018-06-04T16:43:23.000+0000",
-            "fechaModif": null,
-            "fechaInicio": "2018-06-04T16:43:23.000+0000",
-            "esInmediata": true,
-            "paquete": {
-                "idPaquete": 2,
-                "nombre": "Test",
-                "descripcion": "Paquete Test",
-                "alto": "23",
-                "ancho": 32,
-                "largo": 43,
-                "peso": 34
-            },
+        
             "latitudDestino": 30,
             "longitudDestino": 20.3,
             "nombDestinatario": "Gonzalo Zago",
